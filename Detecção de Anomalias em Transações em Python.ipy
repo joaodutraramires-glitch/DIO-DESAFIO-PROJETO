@@ -1,0 +1,89 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+dados = {
+    "id_transacao": [1, 2, 3, 4, 5, 6, 7, 8],
+    "cliente_id": [101, 102, 103, 104, 105, 106, 107, 108],
+    "valor": [50.00, 120.50, 35.90, 5000.00, 80.00, 25.00, 3000.00, 60.00],
+    "hora": [14, 10, 16, 3, 18, 22, 2, 11],
+    "quantidade_transacoes_24h": [2, 3, 1, 20, 4, 2, 18, 1],
+    "canal": ["app", "web", "pix", "web", "app", "pix", "app", "caixa_eletronico"],
+    "cidade": ["Porto Alegre", "Rio Grande", "Pelotas", "Cidade Desconhecida", "Porto Alegre", "Rio Grande", "Cidade Desconhecida", "Caxias do Sul"]
+}
+
+df_csv = pd.DataFrame(dados)
+df_csv.to_csv("transacoes.csv", index=False)
+print("Arquivo transacoes.csv criado com sucesso!")
+
+df = pd.read_csv("transacoes.csv")
+df.head()
+
+print("Quantidade de linhas e colunas:", df.shape)
+df.info()
+df.describe()
+
+q1 = df["valor"].quantile(0.25)
+q3 = df["valor"].quantile(0.75)
+iqr = q3 - q1
+
+limite_valor_alto = q3 + 1.5 * iqr
+print("Q1:", round(q1, 2))
+print("Q3:", round(q3, 2))
+print("IQR:", round(iqr, 2))
+print("Limite para valor anômalo:", round(limite_valor_alto, 2))
+
+df["anomalia_valor"] = df["valor"] > limite_valor_alto
+df["anomalia_frequencia"] = df["quantidade_transacoes_24h"] >= 15
+df["anomalia_horario"] = df["hora"].between(0, 5)
+df["anomalia_cidade"] = df["cidade"].str.lower().str.contains("desconhecida")
+
+df["pontuacao_risco"] = (
+    df["anomalia_valor"].astype(int) +
+    df["anomalia_frequencia"].astype(int) +
+    df["anomalia_horario"].astype(int) +
+    df["anomalia_cidade"].astype(int)
+)
+
+df["suspeita"] = df["pontuacao_risco"] >= 1
+
+df.head()
+
+transacoes_suspeitas = df[df["suspeita"]].copy()
+
+colunas_resultado = [
+    "id_transacao",
+    "cliente_id",
+    "valor",
+    "hora",
+    "quantidade_transacoes_24h",
+    "canal",
+    "cidade",
+    "pontuacao_risco",
+    "anomalia_valor",
+    "anomalia_frequencia",
+    "anomalia_horario",
+    "anomalia_cidade"
+]
+
+transacoes_suspeitas[colunas_resultado].sort_values(
+    by=["pontuacao_risco", "valor"],
+    ascending=False
+)
+
+resumo = df["suspeita"].value_counts().rename(index={False: "Normal", True: "Suspeita"})
+print(resumo)
+
+percentual_suspeitas = df["suspeita"].mean() * 100
+print(f"Percentual de transações suspeitas: {percentual_suspeitas:.2f}%")
+
+plt.figure(figsize=(10, 5))
+plt.scatter(df.index, df["valor"])
+plt.axhline(limite_valor_alto, linestyle="--")
+plt.title("Valores das transações e limite de anomalia")
+plt.xlabel("Índice da transação")
+plt.ylabel("Valor da transação")
+plt.show()
+
+df.to_csv("transacoes_classificadas.csv", index=False, encoding="utf-8")
+print("Arquivo gerado: transacoes_classificadas.csv")
