@@ -1,18 +1,24 @@
-Detecção de Anomalias em Transações em Python
+# Detecção de Anomalias em Transações em Python
 
-Projeto desenvolvido em Python com o objetivo de identificar transações financeiras que fogem do padrão esperado.
+Projeto desenvolvido em Python para identificar transações financeiras que fogem do padrão esperado.
 
-O que foi feito
+## Sobre o projeto
 
-Foi criada uma análise utilizando uma base de transações simuladas para detectar possíveis comportamentos suspeitos. Os dados são processados e classificados de acordo com regras definidas para identificar anomalias.
+Neste projeto foi criada uma análise utilizando uma base de transações simuladas. O objetivo é identificar possíveis comportamentos suspeitos a partir de informações como valor da transação, horário, quantidade de transações realizadas em 24 horas e cidade de origem.
 
-Como funciona
+As transações são analisadas e classificadas de acordo com regras definidas no código, permitindo destacar registros que apresentam características consideradas anômalas.
 
-A análise verifica informações como valor da transação, horário, quantidade de transações realizadas em 24 horas e cidade de origem. Com base nesses critérios, cada transação recebe uma classificação indicando se apresenta ou não sinais de comportamento anômalo.
+## Tecnologias utilizadas
 
-Tecnologias utilizadas
-Python
-Pandas
-NumPy
-Matplotlib
-Google Colab / Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Google Colab / Jupyter Notebook
+
+## Arquivos
+
+* `deteccao_anomalias_transacoes.ipynb` - notebook principal do projeto.
+* `transacoes.csv` - base de dados utilizada na análise.
+* `transacoes_classificadas.csv` - resultado gerado após o processamento.
+* `README.md` - documentação do projeto.
