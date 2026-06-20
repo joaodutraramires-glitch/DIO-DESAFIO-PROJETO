@@ -1,0 +1,256 @@
+id_transacao,cliente_id,valor,hora,quantidade_transacoes_24h,canal,cidade
+1,1003,140.83,20,2,app,Porto Alegre
+2,1024,105.56,22,3,app,Pelotas
+3,1020,81.15,13,2,web,Porto Alegre
+4,1014,149.13,8,4,caixa_eletronico,Porto Alegre
+5,1013,34.68,11,3,app,Porto Alegre
+6,1026,46.91,20,7,web,Pelotas
+7,1003,40.06,21,2,caixa_eletronico,Porto Alegre
+8,1021,53.82,17,3,caixa_eletronico,Rio Grande
+9,1007,31.28,8,7,pix,Caxias do Sul
+10,1003,94.57,8,3,app,Porto Alegre
+11,1016,59.01,14,4,pix,Pelotas
+12,1030,29.7,16,3,app,Porto Alegre
+13,1023,38.15,7,3,app,Porto Alegre
+14,1023,79.24,17,3,app,Rio Grande
+15,1022,105.74,15,6,web,Caxias do Sul
+16,1024,199.98,7,2,app,Porto Alegre
+17,1016,331.17,8,6,app,Rio Grande
+18,1004,83.76,14,6,caixa_eletronico,Porto Alegre
+19,1026,38.7,18,3,app,Rio Grande
+20,1014,20.64,20,4,app,Rio Grande
+21,1016,77.27,13,2,app,Rio Grande
+22,1012,42.64,11,5,app,Rio Grande
+23,1006,53.07,22,6,app,Porto Alegre
+24,1028,47.62,14,7,app,Rio Grande
+25,1024,61.72,12,7,app,Rio Grande
+26,1020,119.86,14,4,caixa_eletronico,Rio Grande
+27,1013,72.7,7,1,pix,Porto Alegre
+28,1025,61.11,11,8,web,Porto Alegre
+29,1017,37.73,15,5,web,Porto Alegre
+30,1014,26.55,21,2,pix,Porto Alegre
+31,1014,51.04,18,4,pix,Porto Alegre
+32,1007,64.74,19,4,web,Porto Alegre
+33,1003,176.33,15,4,pix,Pelotas
+34,1017,71.64,8,3,pix,Porto Alegre
+35,1027,114.49,13,5,caixa_eletronico,Pelotas
+36,1002,50.67,22,5,web,Rio Grande
+37,1026,34.75,7,3,app,Pelotas
+38,1025,39.22,21,2,app,Rio Grande
+39,1009,44.75,17,6,web,Rio Grande
+40,1019,215.0,11,7,web,Rio Grande
+41,1005,42.45,19,2,app,Caxias do Sul
+42,1023,105.76,20,2,web,Rio Grande
+43,1022,40.58,7,1,web,Rio Grande
+44,1011,111.32,8,4,pix,Rio Grande
+45,1003,82.41,17,6,app,Pelotas
+46,1030,61.18,22,6,app,Porto Alegre
+47,1014,65.21,7,3,caixa_eletronico,Rio Grande
+48,1027,46.52,17,3,pix,Rio Grande
+49,1021,85.23,9,7,pix,Caxias do Sul
+50,1024,51.92,17,6,pix,Rio Grande
+51,1023,33.98,16,5,pix,Rio Grande
+52,1006,33.02,8,3,app,Caxias do Sul
+53,1011,73.33,17,2,app,Rio Grande
+54,1015,158.94,21,4,app,Porto Alegre
+55,1015,72.82,20,2,web,Porto Alegre
+56,1002,62.47,7,2,pix,Porto Alegre
+57,1017,78.04,10,3,app,Porto Alegre
+58,1005,136.77,10,2,web,Porto Alegre
+59,1023,75.24,14,3,app,Pelotas
+60,1021,53.2,9,4,app,Pelotas
+61,1028,122.54,20,5,app,Porto Alegre
+62,1023,84.42,19,4,app,Rio Grande
+63,1011,155.19,19,2,pix,Porto Alegre
+64,1030,73.76,10,3,app,Caxias do Sul
+65,1013,34.01,7,1,pix,Porto Alegre
+66,1010,31.42,21,3,web,Rio Grande
+67,1028,165.34,11,2,app,Porto Alegre
+68,1012,172.09,17,3,app,Rio Grande
+69,1003,60.42,21,4,pix,Porto Alegre
+70,1015,54.01,7,6,app,Pelotas
+71,1024,148.98,7,7,pix,Porto Alegre
+72,1006,36.27,7,4,app,Caxias do Sul
+73,1014,40.77,9,2,web,Rio Grande
+74,1004,95.0,7,1,pix,Pelotas
+75,1021,53.68,20,2,app,Pelotas
+76,1015,66.5,16,5,app,Caxias do Sul
+77,1010,60.95,22,4,pix,Porto Alegre
+78,1007,80.29,19,5,app,Porto Alegre
+79,1017,144.62,22,1,app,Porto Alegre
+80,1021,70.09,10,6,app,Porto Alegre
+81,1029,95.03,11,3,app,Rio Grande
+82,1014,21.59,20,5,caixa_eletronico,Caxias do Sul
+83,1005,64.92,10,4,caixa_eletronico,Caxias do Sul
+84,1025,41.94,7,6,app,Rio Grande
+85,1019,34.11,17,5,pix,Rio Grande
+86,1022,41.14,19,4,app,Caxias do Sul
+87,1003,55.49,22,4,app,Caxias do Sul
+88,1010,110.36,21,3,web,Porto Alegre
+89,1024,32.15,8,7,pix,Rio Grande
+90,1025,67.82,19,6,app,Pelotas
+91,1014,51.1,20,5,app,Porto Alegre
+92,1025,55.69,18,2,web,Porto Alegre
+93,1026,115.76,20,6,pix,Caxias do Sul
+94,1012,89.65,20,6,app,Caxias do Sul
+95,1027,139.15,14,3,app,Caxias do Sul
+96,1009,61.25,7,2,caixa_eletronico,Pelotas
+97,1008,45.48,14,5,app,Porto Alegre
+98,1021,58.96,10,4,app,Porto Alegre
+99,1020,76.2,8,3,app,Rio Grande
+100,1005,73.49,8,2,app,Rio Grande
+101,1025,36.73,18,5,web,Rio Grande
+102,1006,70.09,15,5,pix,Rio Grande
+103,1025,75.61,15,5,web,Porto Alegre
+104,1001,266.3,18,3,web,Pelotas
+105,1024,187.22,15,4,pix,Porto Alegre
+106,1024,41.71,17,2,app,Porto Alegre
+107,1024,56.94,8,5,app,Porto Alegre
+108,1020,29.82,20,4,pix,Porto Alegre
+109,1015,48.19,14,4,app,Caxias do Sul
+110,1022,79.33,9,3,caixa_eletronico,Porto Alegre
+111,1009,129.44,20,3,caixa_eletronico,Porto Alegre
+112,1024,44.66,18,6,app,Pelotas
+113,1017,46.54,7,2,web,Rio Grande
+114,1014,20.47,10,7,app,Porto Alegre
+115,1016,60.98,7,3,app,Porto Alegre
+116,1018,37.18,11,5,web,Porto Alegre
+117,1002,49.84,8,3,app,Rio Grande
+118,1005,41.17,18,3,caixa_eletronico,Porto Alegre
+119,1008,63.32,15,5,pix,Porto Alegre
+120,1004,25.36,22,5,pix,Porto Alegre
+121,1014,29.76,18,3,app,Rio Grande
+122,1021,215.1,16,6,app,Porto Alegre
+123,1020,32.85,15,4,app,Pelotas
+124,1015,36.48,7,3,app,Porto Alegre
+125,1026,183.15,8,3,pix,Rio Grande
+126,1017,329.57,16,6,app,Porto Alegre
+127,1003,35.01,7,6,app,Porto Alegre
+128,1023,54.46,7,3,pix,Porto Alegre
+129,1018,80.47,10,7,app,Pelotas
+130,1020,172.57,21,6,app,Caxias do Sul
+131,1017,38.75,14,5,app,Porto Alegre
+132,1017,58.27,18,3,web,Porto Alegre
+133,1003,102.26,13,3,caixa_eletronico,Caxias do Sul
+134,1017,84.7,9,2,app,Rio Grande
+135,1024,54.22,12,4,pix,Porto Alegre
+136,1010,61.95,8,3,pix,Porto Alegre
+137,1019,31.31,19,2,pix,Rio Grande
+138,1001,58.5,9,4,app,Pelotas
+139,1011,57.6,13,6,app,Rio Grande
+140,1014,75.77,22,5,pix,Caxias do Sul
+141,1030,49.13,16,7,app,Rio Grande
+142,1007,86.43,14,5,web,Porto Alegre
+143,1009,116.4,15,10,caixa_eletronico,Rio Grande
+144,1013,72.64,19,3,app,Porto Alegre
+145,1030,80.92,11,4,caixa_eletronico,Porto Alegre
+146,1026,68.66,17,3,pix,Porto Alegre
+147,1002,66.69,20,4,caixa_eletronico,Porto Alegre
+148,1008,44.84,16,3,app,Pelotas
+149,1025,79.37,14,3,pix,Porto Alegre
+150,1002,63.21,9,5,web,Porto Alegre
+151,1026,210.87,10,3,caixa_eletronico,Rio Grande
+152,1009,158.44,22,5,pix,Rio Grande
+153,1028,82.45,15,8,caixa_eletronico,Pelotas
+154,1009,43.83,11,4,app,Pelotas
+155,1014,36.17,13,3,app,Pelotas
+156,1020,128.4,16,7,app,Porto Alegre
+157,1004,77.05,15,5,web,Rio Grande
+158,1017,86.84,18,3,web,Rio Grande
+159,1016,25.55,11,2,web,Porto Alegre
+160,1024,111.06,17,2,app,Porto Alegre
+161,1030,85.62,14,3,caixa_eletronico,Porto Alegre
+162,1020,36.21,22,4,pix,Rio Grande
+163,1013,51.45,9,5,app,Porto Alegre
+164,1013,77.1,9,5,caixa_eletronico,Porto Alegre
+165,1013,68.64,14,4,web,Pelotas
+166,1025,56.79,15,3,web,Caxias do Sul
+167,1010,63.0,18,2,app,Porto Alegre
+168,1006,58.06,13,5,caixa_eletronico,Caxias do Sul
+169,1011,72.52,21,7,pix,Porto Alegre
+170,1001,149.8,14,3,caixa_eletronico,Caxias do Sul
+171,1004,16.25,9,6,pix,Caxias do Sul
+172,1003,58.54,8,1,pix,Porto Alegre
+173,1024,73.49,22,4,app,Pelotas
+174,1022,78.48,9,5,web,Caxias do Sul
+175,1021,54.35,22,5,web,Caxias do Sul
+176,1014,25.38,11,1,pix,Caxias do Sul
+177,1022,79.87,8,4,app,Rio Grande
+178,1005,172.44,11,5,app,Porto Alegre
+179,1028,28.69,16,3,pix,Pelotas
+180,1016,107.24,13,3,app,Rio Grande
+181,1029,55.66,19,3,caixa_eletronico,Rio Grande
+182,1005,64.47,16,3,app,Porto Alegre
+183,1015,37.37,13,2,pix,Rio Grande
+184,1021,55.48,17,4,pix,Porto Alegre
+185,1015,136.32,22,4,app,Pelotas
+186,1014,91.88,13,3,caixa_eletronico,Porto Alegre
+187,1005,172.91,9,6,app,Pelotas
+188,1012,127.43,13,6,web,Pelotas
+189,1008,84.9,20,6,web,Rio Grande
+190,1010,174.02,10,3,pix,Rio Grande
+191,1021,84.9,22,2,app,Porto Alegre
+192,1019,105.15,16,5,app,Caxias do Sul
+193,1019,56.65,16,6,caixa_eletronico,Pelotas
+194,1011,69.17,12,5,web,Porto Alegre
+195,1029,45.44,21,3,web,Porto Alegre
+196,1003,114.92,7,3,app,Porto Alegre
+197,1011,34.88,11,4,app,Rio Grande
+198,1004,102.54,13,5,pix,Caxias do Sul
+199,1011,60.05,14,5,app,Pelotas
+200,1029,127.0,14,1,app,Porto Alegre
+201,1011,100.78,9,3,pix,Caxias do Sul
+202,1028,181.52,10,5,app,Porto Alegre
+203,1015,99.68,8,5,caixa_eletronico,Caxias do Sul
+204,1021,28.09,16,2,app,Porto Alegre
+205,1014,64.28,12,7,pix,Rio Grande
+206,1008,35.0,16,4,caixa_eletronico,Caxias do Sul
+207,1023,50.15,16,7,pix,Porto Alegre
+208,1030,153.11,18,2,app,Rio Grande
+209,1008,94.69,15,6,web,Caxias do Sul
+210,1024,45.4,17,4,caixa_eletronico,Porto Alegre
+211,1008,38.19,16,4,app,Porto Alegre
+212,1022,67.9,17,4,app,Rio Grande
+213,1024,34.15,16,3,app,Porto Alegre
+214,1014,46.1,12,5,pix,Porto Alegre
+215,1023,79.17,10,6,caixa_eletronico,Rio Grande
+216,1009,125.89,19,4,web,Pelotas
+217,1003,93.21,12,4,caixa_eletronico,Porto Alegre
+218,1003,18.91,15,4,web,Porto Alegre
+219,1014,78.84,10,5,web,Pelotas
+220,1028,69.38,13,3,app,Rio Grande
+221,1004,83.73,15,4,web,Pelotas
+222,1014,162.21,17,5,app,Porto Alegre
+223,1022,21.44,15,6,pix,Caxias do Sul
+224,1007,48.18,12,7,pix,Rio Grande
+225,1022,92.3,22,3,app,Porto Alegre
+226,1010,27.94,15,3,web,Caxias do Sul
+227,1025,150.17,19,3,app,Rio Grande
+228,1018,81.66,18,2,pix,Porto Alegre
+229,1017,106.23,15,6,pix,Porto Alegre
+230,1006,48.71,21,1,pix,Rio Grande
+231,1014,104.33,9,2,app,Porto Alegre
+232,1026,120.02,21,5,app,Porto Alegre
+233,1001,75.8,20,6,app,Porto Alegre
+234,1023,75.86,15,2,app,Porto Alegre
+235,1015,77.38,18,6,app,Porto Alegre
+236,1022,41.48,15,5,app,Rio Grande
+237,1020,61.49,11,4,pix,Porto Alegre
+238,1013,61.32,19,3,app,Porto Alegre
+239,1010,82.34,10,6,app,Rio Grande
+240,1019,115.57,12,2,pix,Porto Alegre
+241,1005,37.26,15,3,web,Rio Grande
+242,1018,62.26,20,5,caixa_eletronico,Porto Alegre
+243,1003,150.63,13,8,web,Porto Alegre
+244,1020,44.3,14,7,pix,Porto Alegre
+245,1019,42.43,7,5,web,Rio Grande
+246,1003,74.53,8,5,web,Porto Alegre
+247,1023,106.1,7,3,caixa_eletronico,Pelotas
+248,1013,67.11,8,3,app,Porto Alegre
+249,1024,138.51,20,5,app,Rio Grande
+250,1002,106.83,20,3,web,Rio Grande
+251,1004,5200.0,3,2,web,Cidade Desconhecida
+252,1012,4100.5,2,18,pix,Porto Alegre
+253,1020,75.0,4,35,app,Rio Grande
+254,1008,6800.0,12,1,web,Cidade Desconhecida
+255,1022,15.0,1,28,pix,Pelotas
